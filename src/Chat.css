@@ -1,0 +1,74 @@
+.chat {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 5px; */
+    flex: 0.7;
+}
+
+.chat__header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 8px;
+    background-color: #EDEDED;
+    z-index: 100;
+}
+
+.chat__headerInfo {
+    flex: 1;
+    padding-left: 15px;
+}
+
+.chat__headerInfo > h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.chat__headerInfo > span {
+    color: #5F5F5F;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.chat__body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-repeat: repeat;
+    background-position: center;
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent;
+}
+
+.chat__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F0F0;
+    height: 62px;
+}
+
+.chat__footer > .MuiIconButton-root {
+    color: #919191;
+}
+
+.chat__footer > form {
+    display: flex;
+    flex: 1;
+    /* display: none; */
+}
+
+.chat__footer > form > input {
+    flex: 1;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    margin-top: 1px lightgray solid ;
+}
+
+.chat__footer > form > button {
+    display: none;
+}
