@@ -3,6 +3,7 @@
     align-items: center;
     padding: 10px;
     height: 50px;
+    width: inherit;
     background-color: white;
     border-bottom: 1px #f6f6f6 solid;
 }
@@ -24,8 +25,11 @@
 }
 
 .sidebarChat__info > p {
+    display: inline-block;
     font-size: 14px;
     color: #777;
     margin-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
 }

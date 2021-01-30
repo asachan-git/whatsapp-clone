@@ -14,13 +14,8 @@
     background-color: #EDEDED;
 }
 
-.sidebar__headerRight {
-    display: flex;
-    justify-content: space-between;
-}
 
 .sidebar__headerRight > .MuiIconButton-root {
-    font-size:  24px !important;
     color: #919191;
 }
 
@@ -56,7 +51,17 @@
 .sidebar__chat {
     /* flex: 1; */
     background-color: white;
-    overflow: scroll;
+    overflow-y: scroll;
     scrollbar-width: thin;
-    scrollbar-color: black;
+    scrollbar-color: #d1d1d1 transparent;
+}
+
+/*scrollbar for Chrome*/
+.sidebar__chat::-webkit-scrollbar{
+    background: transparent;
+    width: 6px;
+}
+
+.sidebar__chat::-webkit-scrollbar-thumb {
+    background: #d1d1d1;
 }

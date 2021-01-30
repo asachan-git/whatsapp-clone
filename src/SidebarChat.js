@@ -9,7 +9,7 @@ function SidebarChat() {
             <Avatar />
             <div className="sidebarChat__info">
                 <h3>Aniket Sachan</h3>
-                <p>This is the last message...</p>
+                <p>This is the last message and hoe ajhkfd hjdf hkjfdjkdljkdf jlkdfjl f kljfd </p>
             </div>
         </div>
     )
